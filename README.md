@@ -55,11 +55,10 @@
             width: 30%;
         }
         .product img {
-            width: 300px;
-            height: 300px;
+            max-width: 100%;
+            height: auto;
             border-bottom: 1px solid #ddd;
             margin-bottom: 15px;
-            object-fit: cover; /* This property helps to cover the image area properly */
         }
         .product h2 {
             font-size: 1.5em;
@@ -113,24 +112,24 @@
         <h2>Produtos em Destaque</h2>
         <div class="products">
             <div class="product">
-                <img src="produto1.jpg" alt="ThinkPad Laptop">
-                <h2>ThinkPad Laptop</h2>
-                <p>Descrição breve do ThinkPad Laptop.</p>
-                <p class="price">MT 32.500</p>
+                <img src="https://via.placeholder.com/300" alt="Produto 1">
+                <h2>Produto 1</h2>
+                <p>Descrição breve do produto 1.</p>
+                <p class="price">R$ 99,99</p>
                 <button>Comprar</button>
             </div>
             <div class="product">
-                <img src="produto2.jpg" alt="Lenovo Laptop">
-                <h2>Lenovo Laptop</h2>
-                <p>Descrição breve do Lenovo Laptop.</p>
-                <p class="price">Mt 27.500</p>
+                <img src="https://via.placeholder.com/300" alt="Produto 2">
+                <h2>Produto 2</h2>
+                <p>Descrição breve do produto 2.</p>
+                <p class="price">R$ 149,99</p>
                 <button>Comprar</button>
             </div>
             <div class="product">
-                <img src="produto3.jpg" alt="HP Laptop">
-                <h2>HP Laptop</h2>
-                <p>Descrição breve do HP Laptop.</p>
-                <p class="price">Mt 26.500</p>
+                <img src="https://via.placeholder.com/300" alt="Produto 3">
+                <h2>Produto 3</h2>
+                <p>Descrição breve do produto 3.</p>
+                <p class="price">R$ 199,99</p>
                 <button>Comprar</button>
             </div>
         </div>
