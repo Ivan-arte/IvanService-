@@ -115,21 +115,21 @@
                 <img src="produto1.jpg" alt="ThinkPad Laptop">
                 <h2>ThinkPad Laptop</h2>
                 <p>Descrição breve do ThinkPad Laptop.</p>
-                <p class="price">R$ 2999,99</p>
+                <p class="price">MT 32.500</p>
                 <button>Comprar</button>
             </div>
             <div class="product">
                 <img src="produto2.jpg" alt="Lenovo Laptop">
                 <h2>Lenovo Laptop</h2>
                 <p>Descrição breve do Lenovo Laptop.</p>
-                <p class="price">R$ 3999,99</p>
+                <p class="price">Mt 27.500</p>
                 <button>Comprar</button>
             </div>
             <div class="product">
                 <img src="produto3.jpg" alt="HP Laptop">
                 <h2>HP Laptop</h2>
                 <p>Descrição breve do HP Laptop.</p>
-                <p class="price">R$ 4999,99</p>
+                <p class="price">Mt 26.5000</p>
                 <button>Comprar</button>
             </div>
         </div>
