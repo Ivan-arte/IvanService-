@@ -55,10 +55,11 @@
             width: 30%;
         }
         .product img {
-            max-width: 100%;
-            height: auto;
+            width: 300px;
+            height: 300px;
             border-bottom: 1px solid #ddd;
             margin-bottom: 15px;
+            object-fit: cover; /* This property helps to cover the image area properly */
         }
         .product h2 {
             font-size: 1.5em;
@@ -129,7 +130,7 @@
                 <img src="produto3.jpg" alt="HP Laptop">
                 <h2>HP Laptop</h2>
                 <p>Descrição breve do HP Laptop.</p>
-                <p class="price">Mt 26.5000</p>
+                <p class="price">Mt 26.500</p>
                 <button>Comprar</button>
             </div>
         </div>
@@ -139,6 +140,7 @@
     </footer>
 </body>
 </html>
+
 
 
 # IvanService-
